@@ -185,11 +185,11 @@ export default function AdminPage() {
             💡 How to use
           </p>
           <ul style={{ fontSize: 12, color: "var(--text-secondary)", lineHeight: 1.8, paddingLeft: 16 }}>
-            <li>YouTube pe koi bhi live stream ya video kholo</li>
-            <li>URL copy karo (youtube.com/watch?v=...)</li>
-            <li>Upar paste karo aur Save karo</li>
-            <li>Main page pe stream automatically update ho jayega</li>
-            <li>Score aur match details bhi yahan se update karo</li>
+            <li>Open any live youtube video link</li>
+            <li>Copy the URL (youtube.com/watch?v=...)</li>
+            <li>Paste it here and save</li>
+            <li>stream will be updated automatically on main page</li>
+            <li>Update score and match details from here.</li>
           </ul>
         </div>
       </main>
