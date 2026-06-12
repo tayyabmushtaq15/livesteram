@@ -15,7 +15,7 @@ declare global {
 }
 
 export default function GoogleAd({ slot, format = "auto", style, className }: Props) {
-  const adRef = useRef<HTMLElement | null>(null);
+  const adRef = useRef<HTMLModElement | null>(null);
   const pushed = useRef(false);
 
   useEffect(() => {
