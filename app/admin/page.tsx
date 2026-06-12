@@ -73,7 +73,7 @@ export default function AdminPage() {
             Admin Panel
           </h1>
           <p style={{ fontSize: 13, color: "var(--text-secondary)", marginBottom: 24 }}>
-            Yahan se YouTube link aur match details change karo
+            Add youtube link and match details here.
           </p>
 
           <div style={fieldStyle}>
@@ -82,7 +82,7 @@ export default function AdminPage() {
               onChange={(e) => setConfig({ ...config, youtubeUrl: e.target.value })}
               placeholder="https://www.youtube.com/watch?v=..." />
             <p style={{ fontSize: 11, color: "var(--text-secondary)", marginTop: 4 }}>
-              YouTube pe live stream ka link paste karo
+              Paste the YouTube live stream link here.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ export default function AdminPage() {
               onChange={(e) => setAdminKey(e.target.value)}
               placeholder="**********" />
             <p style={{ fontSize: 11, color: "var(--text-secondary)", marginTop: 4 }}>
-              .env file mein ADMIN_KEY set karo production ke liye
+              This is required to make changes to the match details.
             </p>
           </div>
 
