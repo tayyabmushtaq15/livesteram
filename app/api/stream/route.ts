@@ -7,15 +7,15 @@ const supabase = createClient(
 );
 
 const DEFAULT_CONFIG = {
-  youtubeUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  matchTitle: "FIFA World Cup Final",
-  team1: "Argentina 🇦🇷",
-  team2: "France 🇫🇷",
+  youtubeUrl: "",
+  matchTitle: "Streamio",
+  team1: "Team 1",
+  team2: "Team 2",
   score1: 0,
   score2: 0,
   minute: 0,
   isLive: false,
-  tournament: "FIFA World Cup 2026",
+  tournament: "Stream Tournament",
 };
 
 export async function GET() {
